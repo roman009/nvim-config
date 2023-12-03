@@ -220,7 +220,7 @@ function RunCode()
       default = "go run %",
     },
     java = {
-      default = "java %",
+      default = "/home/valeriu/.local/share/jdks/amazon-corretto-17.0.9.8.1-linux-x64/bin/java %",
     },
     js = {
       default = "node %",
