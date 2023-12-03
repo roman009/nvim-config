@@ -52,6 +52,6 @@ fi
 # Clone the Git repositories
 clone_repository "$nvchad_repo" "$config_dir"
 clone_repository "$config_repo" "$config_dir/lua/custom"
-nvim
+/home/valeriu/Tools/nvim-linux64/bin/nvim
 
 echo "Installation complete. Your neovim configuration is now set up!"
