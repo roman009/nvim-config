@@ -5,7 +5,7 @@ lua << EOF
 -------------
 
 if vim.g.GuiLoaded then
-  local font_name = "JetBrainsMono-Regular"
+  local font_name = "jetbrainsMono Nerd Font"
   local font_size = 11
   local not_transparent = false
 
@@ -42,7 +42,7 @@ end
 -------------
 
 if vim.g.neovide then
-  vim.opt.guifont = "JetBrainsMono-Regular:h11"
+  vim.opt.guifont = "jetbrainsMono Nerd Font:h11"
   vim.g.remember_window_size = true
   vim.g.remember_window_position = true
 
